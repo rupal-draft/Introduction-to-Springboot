@@ -12,11 +12,6 @@ The goal of this project is to implement **dependency injection** using **Spring
 - **Dynamic Configuration**: The cake's frosting and syrup flavors can be dynamically injected by Spring.
 - **CommandLineRunner**: Used to test the `bakeCake()` method when the application starts.
 
-## Project Structure
-
-src ├── main │ ├── java │ │ └── com.example.cakebaker │ │ ├── CakeBaker.java // Main class that bakes the cake │ │ ├── Frosting.java // Frosting interface │ │ ├── Syrup.java // Syrup interface │ │ ├── ChocolateFrosting.java // Chocolate Frosting implementation │ │ ├── StrawberryFrosting.java // Strawberry Frosting implementation │ │ ├── ChocolateSyrup.java // Chocolate Syrup implementation │ │ ├── StrawberrySyrup.java // Strawberry Syrup implementation │ │ └── CakeApplication.java // Application runner to test cake baking └── resources └── application.properties // Spring Boot config (if needed)
-
-
 
 ## How it Works
 
@@ -31,7 +26,7 @@ src ├── main │ ├── java │ │ └── com.example.cakebaker �
 
 1. Clone the repository:
     ```bash
-    git clone [<your-repo-url>](https://github.com/rupal-draft/Introduction-to-Springboot.git)
+    git clone (https://github.com/rupal-draft/Introduction-to-Springboot.git)
     ```
 
 2. Navigate to the project directory:
